@@ -1,3 +1,42 @@
 // -----------------------------------------------------------------------------
 // Home page
 // -----------------------------------------------------------------------------
+
+.section {
+  &-container {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    min-height: 800px;
+    &.visual {
+      background-size: cover;
+      background-position: center center;
+      background-color: rgba(0, 0, 0, 0.2);
+      background-repeat: no-repeat;
+      background-image: url("../../assets/images/living-room.jpg");
+    }
+  }
+  &-primary {
+    background-color: $primary;
+    & * {
+      color: $white;
+    }
+  }
+  &-light {
+    background-color: $pale-grey;
+    h1 {
+      color: $black;
+    }
+  }
+  &-darkblue {
+    background-color: $cerulean;
+    * {
+      color: $white;
+    }
+  }
+  &-content {
+    width: 1080px;
+    margin: 0 auto;
+    text-align: center;
+  }
+}

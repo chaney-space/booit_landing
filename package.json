@@ -5,13 +5,6 @@
   "version": "2.0.0",
   "author": "Ali Hosseini",
   "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/smarteist/Frontent-Starter-Boilerplate.git"
-  },
-  "bugs": {
-    "url": "https://github.com/smarteist/Frontent-Starter-Boilerplate/issues"
-  },
   "main": "index.js",
   "scripts": {
     "build": "webpack --mode=development",

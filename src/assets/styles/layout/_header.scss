@@ -2,6 +2,15 @@
 // Header of the site/application
 // -----------------------------------------------------------------------------
 .header {
+  position: fixed;
+  z-index: 99;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
   color: $light;
-  background-color: $dark;
+  background-color: rgba(255, 255, 255, 1);
+  .logo {
+    max-width: 80px;
+  }
 }

@@ -1,0 +1,33 @@
+
+.icon {
+  display: inline-block;
+  width: 5rem;
+  height: 5rem;
+  margin-bottom: 2rem;
+  mask-position: center center;
+  mask-size: contain;
+  mask-repeat: no-repeat;
+  background-color: $white;
+  &-search {
+    mask-image: url("/dist/images/search.svg");
+    mask-size: 80%;
+  }
+  &-house {
+    mask-image: url("/dist/images/laptop-house.svg");
+  }
+  &-couch {
+    mask-image: url("/dist/images/couch.svg");
+  }
+  &-door {
+    mask-image: url("/dist/images/door.svg");
+  }
+  &-blue {
+    background-color: $primary;
+  }
+  &-darkblue {
+    background-color: $cerulean;
+  }
+  &-lightblue {
+    background-color: $robin-egg-blue;
+  }
+}

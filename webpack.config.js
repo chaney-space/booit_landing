@@ -8,7 +8,7 @@ const devServerConfiguration = {
   server: {
     baseDir: "dist",
   },
-  port: 8080,
+  port: 8070,
 };
 
 // eslint-disable-next-line no-unused-vars

@@ -10,6 +10,17 @@
   address {
     margin: 0 auto;
     text-align: center;
+    p {
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      span:nth-child(2) {
+        display: none;
+      }
+    }
+    a {
+      color: $silver;
+    }
   }
   small {
     display: block;
@@ -18,5 +29,20 @@
   }
   .info {
     color: $cool-grey;
+  }
+}
+
+@include media-breakpoint-up(lg) {
+  .footer {
+    address {
+      p {
+        display: block;
+        text-align: center;
+        span:nth-child(2) {
+          display: inline-block;
+          color: $steel;
+        }
+      }
+    }
   }
 }

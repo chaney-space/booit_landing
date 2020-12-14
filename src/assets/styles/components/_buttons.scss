@@ -2,7 +2,6 @@
 // Button component
 // -----------------------------------------------------------------------------
 
-
 .store-btn {
   width: 160px;
   margin: 0;
@@ -11,7 +10,7 @@
   border-radius: 6px;
   box-shadow: 0 0 3px $white;
   background-color: $black;
-  transition: all .2s ease;
+  transition: all 0.2s ease;
   .playstore {
     width: 100%;
     background: $black;
@@ -21,5 +20,11 @@
 @include media-breakpoint-up(md) {
   .store-btn {
     width: 180px;
+  }
+}
+
+@include media-breakpoint-up(lg) {
+  .store-btn {
+    margin: 3rem 0;
   }
 }

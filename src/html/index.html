@@ -1,207 +1,168 @@
 <!DOCTYPE html>
 <html lang="ko">
-  <head>
-    <meta charset="utf-8" />
-    <title>Frontend Starter</title>
-    <meta name="description" content="" />
 
-    ${ require('./partials/head.html') }
-  </head>
-  <body>
-    ${ require('./partials/browserupgrade.html') }
+<head>
+  <meta charset="utf-8" />
+  <title>Frontend Starter</title>
+  <meta name="description" content="" />
 
-    <div class="d-flex flex-column h-100">
-      ${ require('./partials/header.html') }
+  ${ require('./partials/head.html') }
+</head>
 
-      <main class="d-flex flex-column">
-        <!-- section 1 -->
-        <section class="section-container visual">
-          <div class="section-content">
-            <!-- <img src="../assets/images/buit_symbol.svg" class="img-fluid symbol" alt="부잇 심볼" /> -->
-            <h1 class="mt-4">
-              <span class="text-bold">좋은 부동산</span>은<br />
-              광고에 절대 나오지 않습니다!
+<body>
+  ${ require('./partials/browserupgrade.html') }
+
+  <div class="d-flex flex-column h-100">
+    ${ require('./partials/header.html') }
+
+    <main class="d-flex flex-column">
+      <!-- section 1 -->
+      <section class="section-container visual">
+        <div class="section-content">
+          <!-- <img src="../assets/images/buit_symbol.svg" class="img-fluid symbol" alt="부잇 심볼" /> -->
+          <h1 class="mt-4">
+            <span class="text-bold">좋은 부동산</span>은<br />
+            광고에 절대 나오지 않습니다!
+          </h1>
+          <p>
+            광고에서는 구할 수 없는 양질의 매물을<br />
+            주변 부동산 전문가가 실시간으로 구해드립니다.
+          </p>
+          <button class="store-btn mt-5">
+            <a href="https://play.google.com/store/apps/" target="_blank">
+              <img src="../assets/images/googleplay.svg" class="playstore" alt="구글 플레이 스토어 뱃지" />
+            </a>
+          </button>
+        </div>
+      </section>
+
+      <!-- section 2 -->
+      <section class="section-container section-light">
+        <div class="section-content">
+          <div class="app-img">
+            <img src="../assets/images/app_v2.png" class="img-fluid" alt="부입 앱 이미지" />
+          </div>
+          <div class="info-text">
+            <i class="icon icon-search icon-blue"></i>
+            <h1>나의 부동산은 주변 가까운 부동산 전문가가 제일 잘 압니다.</h1>
+            <p>
+              내 주변 또는 원하는 지역의 가까운 거리순으로 부동산 전문가가
+              검색됩니다.<br />
+              아파트, 토지, 상가등 부동산의 모든 분야를 가까운 전문가에게
+              의뢰하세요.<br />
+              실시간으로 부동산 전문가가 원하는 부동산을 구해드립니다.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- section 3 -->
+      <section class="section-container section-darkblue">
+        <div class="section-content">
+          <div class="info-text">
+            <i class="icon icon-house icon-lightblue"></i>
+            <h1>
+              내 집이 안 팔리나요?<br />
+              상가가 안 나가나요?
+            </h1>
+            <strong>많은 부동산 전문가에게 의뢰해야 계약 확률이 높아집니다.</strong>
+            <p>
+              한 번에 최대 50곳의 부동산 전문가에게 실시간 의뢰가
+              가능합니다.<br />
+              이제는 똑같은 말 반복하지 말고 쪽지 한 번으로 편하게 이용하세요.
+            </p>
+          </div>
+          <div class="phone">
+            <div class="frame-android">
+              <div class="swiper-container">
+                <div class="swiper-wrapper">
+                  <!-- Slides -->
+                  <div class="swiper-slide">
+                    <img src="../assets/images/v2-1.png" class="img-fluid" alt="데모 이미지" />
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="../assets/images/v2-2.png" class="img-fluid" alt="데모 이미지" />
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="../assets/images/v2-6.png" class="img-fluid" alt="데모 이미지" />
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="../assets/images/demo04.png" class="img-fluid" alt="데모 이미지" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- section 4 -->
+      <section class="section-container">
+        <div class="section-content">
+          <div class="info-text">
+            <i class="icon icon-couch icon-darkblue"></i>
+            <h1>편하게 믿고 의뢰하세요.</h1>
+            <p>
+              개업공인중개사 및 소속공인중개사만을 부동산 전문가로 등록,
+              부동산의 전문성을 확보했습니다.
+            </p>
+          </div>
+          <div class="phone">
+            <div class="frame-android">
+              <div class="swiper-container">
+                <div class="swiper-wrapper">
+                  <!-- Slides -->
+                  <div class="swiper-slide">
+                    <img src="../assets/images/v2-2.png" class="img-fluid" alt="데모 이미지" />
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="../assets/images/v2-4.png" class="img-fluid" alt="데모 이미지" />
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="../assets/images/v2-8.png" class="img-fluid" alt="데모 이미지" />
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="../assets/images/v2-3.png" class="img-fluid" alt="데모 이미지" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- section 5 -->
+      <section class="section-container section-primary">
+        <div class="section-content">
+          <div class="info-text">
+            <i class="icon icon-door"></i>
+            <h1>
+              부잇은 부동산 문턱을<br />
+              낮춰드립니다.
             </h1>
             <p>
-              광고에서는 구할 수 없는 양질의 매물을<br />
-              주변 부동산 전문가가 실시간으로 구해드립니다.
+              어렵게 생각하지 말고 나에게 맞는 매물을 구해보세요.<br />
+              개인정보의 노출이 없기에 까다로운 조건, 어려운 조건도 쉽게 의뢰
+              가능합니다.
             </p>
-            <button class="store-btn mt-5">
-              <a href="https://play.google.com/store/apps/" target="_blank">
-                <img
-                  src="../assets/images/googleplay.svg"
-                  class="playstore"
-                  alt="구글 플레이 스토어 뱃지"
-                />
-              </a>
-            </button>
           </div>
-        </section>
+        </div>
+      </section>
+    </main>
 
-        <!-- section 2 -->
-        <section class="section-container section-light">
-          <div class="section-content">
-            <div class="app-img">
-              <img
-                src="../assets/images/app.png"
-                class="img-fluid"
-                alt="부입 앱 이미지"
-              />
-            </div>
-            <div class="info-text">
-              <i class="icon icon-search icon-blue"></i>
-              <h1>나의 부동산은 주변 가까운 부동산 전문가가 제일 잘 압니다.</h1>
-              <p>
-                내 주변 또는 원하는 지역의 가까운 거리순으로 부동산 전문가가
-                검색됩니다.<br />
-                아파트, 토지, 상가등 부동산의 모든 분야를 가까운 전문가에게
-                의뢰하세요.<br />
-                실시간으로 부동산 전문가가 원하는 부동산을 구해드립니다.
-              </p>
-            </div>
-          </div>
-        </section>
+    ${ require('./partials/footer.html') }
+  </div>
+</body>
 
-        <!-- section 3 -->
-        <section class="section-container section-darkblue">
-          <div class="section-content">
-            <div class="info-text">
-              <i class="icon icon-house icon-lightblue"></i>
-              <h1>
-                내 집이 안 팔리나요?<br />
-                상가가 안 나가나요?
-              </h1>
-              <strong
-                >많은 부동산 전문가에게 의뢰해야 계약 확률이 높아집니다.</strong
-              >
-              <p>
-                한 번에 최대 50곳의 부동산 전문가에게 실시간 의뢰가
-                가능합니다.<br />
-                이제는 똑같은 말 반복하지 말고 쪽지 한 번으로 편하게 이용하세요.
-              </p>
-            </div>
-            <div class="phone">
-              <div class="frame-android">
-                <div class="swiper-container">
-                  <div class="swiper-wrapper">
-                    <!-- Slides -->
-                    <div class="swiper-slide">
-                      <img
-                        src="../assets/images/demo_home.png"
-                        class="img-fluid"
-                        alt="데모 이미지"
-                      />
-                    </div>
-                    <div class="swiper-slide">
-                      <img
-                        src="../assets/images/demo04.png"
-                        class="img-fluid"
-                        alt="데모 이미지"
-                      />
-                    </div>
-                    <div class="swiper-slide">
-                      <img
-                        src="../assets/images/demo05.png"
-                        class="img-fluid"
-                        alt="데모 이미지"
-                      />
-                    </div>
-                    <div class="swiper-slide">
-                      <img
-                        src="../assets/images/demo06.png"
-                        class="img-fluid"
-                        alt="데모 이미지"
-                      />
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
+<script>
+  var mySwiper = new Swiper(".swiper-container", {
+    // Optional parameters
+    direction: "horizontal",
+    loop: true,
+    autoplay: {
+      delay: 3000,
+    },
+  });
+</script>
 
-        <!-- section 4 -->
-        <section class="section-container">
-          <div class="section-content">
-            <div class="info-text">
-              <i class="icon icon-couch icon-darkblue"></i>
-              <h1>편하게 믿고 의뢰하세요.</h1>
-              <p>
-                개업공인중개사 및 소속공인중개사만을 부동산 전문가로 등록,
-                부동산의 전문성을 확보했습니다.
-              </p>
-            </div>
-            <div class="phone">
-              <div class="frame-android">
-                <div class="swiper-container">
-                  <div class="swiper-wrapper">
-                    <!-- Slides -->
-                    <div class="swiper-slide">
-                      <img
-                        src="../assets/images/demo01.png"
-                        class="img-fluid"
-                        alt="데모 이미지"
-                      />
-                    </div>
-                    <div class="swiper-slide">
-                      <img
-                        src="../assets/images/demo02.png"
-                        class="img-fluid"
-                        alt="데모 이미지"
-                      />
-                    </div>
-                    <div class="swiper-slide">
-                      <img
-                        src="../assets/images/demo03.png"
-                        class="img-fluid"
-                        alt="데모 이미지"
-                      />
-                    </div>
-                    <div class="swiper-slide">
-                      <img
-                        src="../assets/images/demo04.png"
-                        class="img-fluid"
-                        alt="데모 이미지"
-                      />
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-
-        <!-- section 5 -->
-        <section class="section-container section-primary">
-          <div class="section-content">
-            <div class="info-text">
-              <i class="icon icon-door"></i>
-              <h1>
-                부잇은 부동산 문턱을<br />
-                낮춰드립니다.
-              </h1>
-              <p>
-                어렵게 생각하지 말고 나에게 맞는 매물을 구해보세요.<br />
-                개인정보의 노출이 없기에 까다로운 조건, 어려운 조건도 쉽게 의뢰
-                가능합니다.
-              </p>
-            </div>
-          </div>
-        </section>
-      </main>
-
-      ${ require('./partials/footer.html') }
-    </div>
-  </body>
-
-  <script>
-    var mySwiper = new Swiper(".swiper-container", {
-      // Optional parameters
-      direction: "horizontal",
-      loop: true,
-      autoplay: {
-        delay: 3000,
-      },
-    });
-  </script>
 </html>
